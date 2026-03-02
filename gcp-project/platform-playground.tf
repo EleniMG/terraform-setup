@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "terraform-state-bucket-elenig"
+    bucket = "terraform-config-eleni-g"
     prefix = "gcp-project/platform_playground"
   }
 
@@ -8,5 +8,5 @@ terraform {
 
 resource "google_project" "platform_playground" {
   name       = "platform-playground"
-  project_id = "platform-playground-emg"
+  project_id = "platform-playground-eg"
 }
