@@ -1,0 +1,21 @@
+# Terraform
+**/.terraform
+**/.terraform.*
+
+#.tfstate files
+**/*.tfstate
+**/*.tfstate.*
+
+# Exclude all .tfvars files which could contain sensitive data
+**/*.tfvars
+**/*.tfvars.json
+
+# Exclude override files which are used to override resources locally
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+
+# Exclude CLI configuration files
+**/.terraformrc
+**/terraform.rc
